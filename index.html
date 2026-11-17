@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CHI Lab | Computational Healthcare Intelligence Lab, ICRI-STE</title>
+<meta name="description" content="The CHI Lab at ICRI-STE turns complex medical data into clinical insight with machine learning, deep learning and computational biology.">
+<meta property="og:title" content="CHI Lab | Computational Healthcare Intelligence Lab">
+<meta property="og:description" content="Healthcare AI research: diagnostics, personalization and clinical-grade integration.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#team">Skip to team</a>
+<header class="nav" id="top">
+  <a class="brand" href="#top"><svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true"><path d="M4 34h12l5-14 9 28 7-20 4 6h19" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>CHI Lab</span></a>
+  <nav aria-label="Main"><a href="#mission">Mission</a><a href="#team">Team</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section class="hero">
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="hero-in">
+    <p class="kicker" id="parent">ICRI-STE research lab</p>
+    <h1 id="headline">Turning complex medical data into clinical insight.</h1>
+    <p class="lead" id="intro"></p>
+    <div class="cta"><a class="btn primary" href="#team">Meet the researchers</a><a class="btn" href="#mission">Our focus</a></div>
+  </div>
+  <svg class="ecg" viewBox="0 0 1200 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40h300l20-6 14 6h40l16-34 20 66 18-52 14 20h120l16-6 14 6h200l20-34 20 66 18-32h100l20-6 14 6h260" pathLength="1"/></svg>
+</section>
+
+<main>
+<section class="sec" id="mission">
+  <div class="wrap split">
+    <div><h2>What we do</h2><p class="mission" id="mission-text"></p></div>
+    <ul class="pillars" id="pillars"></ul>
+  </div>
+</section>
+
+<section class="sec alt" id="team">
+  <div class="wrap">
+    <h2>The research community</h2>
+    <p class="sub">Nominated researchers from ICRI-STE and the Open Science community.</p>
+    <div class="tools">
+      <div class="chips" id="chips" role="group" aria-label="Filter by level"></div>
+      <label class="search"><span class="sr">Search researchers</span><input id="q" type="search" placeholder="Search name, topic or method"></label>
+    </div>
+    <div class="grid" id="grid" aria-live="polite"></div>
+    <p class="empty" id="empty" hidden>No researchers match that search. Try a broader term.</p>
+  </div>
+</section>
+
+<section class="sec" id="contact">
+  <div class="wrap contact">
+    <h2>Work with the CHI Lab</h2>
+    <p class="sub">Collaborating on a clinical dataset, a model or a study? Get in touch.</p>
+    <a class="btn primary" id="mail" href="#">Email the lab</a>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span id="foot">CHI Lab · ICRI-STE</span><a href="#top">Back to top</a></div></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
