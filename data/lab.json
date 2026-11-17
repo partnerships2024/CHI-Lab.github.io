@@ -3,7 +3,7 @@
   "short": "CHI Lab",
   "parent": "ICRI-STE",
   "headline": "Turning complex medical data into clinical insight.",
-  "intro": "The CHI Lab is ICRI-STE’s dedicated research lab for healthcare AI. We connect computational science with modern medicine, building the algorithms and predictive models that help researchers and clinicians shape the next generation of patient care.",
+  "intro": "The CHI Lab is ICRI-HEE’s dedicated research lab for healthcare AI. We connect computational science with modern medicine, building the algorithms and predictive models that help researchers and clinicians shape the next generation of patient care.",
   "mission": "We bring machine learning and deep learning into diagnostics and health systems, and we help interdisciplinary researchers turn biomedical data into solutions that reach patients.",
   "pillars": [
     {"title": "Diagnostics", "text": "High-accuracy predictive algorithms for early disease identification and risk stratification."},
